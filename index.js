@@ -81,9 +81,9 @@ app.post("/bfhl", (req, res) => {
       throw new Error("Invalid input: 'data' must be an array.");
     }
 
-    const userId = process.env.USER_ID || "john_doe_17091999";
-    const email = process.env.EMAIL || "john@xyz.com";
-    const rollNumber = process.env.ROLL_NUMBER || "ABCD123";
+    const userId = process.env.USER_ID || "kaustubh_bhargava";
+    const email = process.env.EMAIL || "kaustubhbhargava210638@acropolis.in";
+    const rollNumber = process.env.ROLL_NUMBER || "0827CS211118";
 
     // Filter numbers and alphabets from the input array
     const numbers = data.filter((item) => /^[0-9]+$/.test(item));
